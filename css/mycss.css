@@ -1,0 +1,74 @@
+#footer {
+  background: rgba(255,255,255,.15);
+  color: #000;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  backdrop-filter: saturate(100%) blur(5px)
+}
+
+#footer::before {
+  background: rgba(255,255,255,.15)
+}
+
+#footer #footer-wrap {
+  color: var(--font-color);
+}
+
+#footer #footer-wrap a {
+  color: var(--font-color);
+}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(73, 177, 245, 0.2);
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #49b1f5;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.4) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0.4) 75%,
+    transparent 75%,
+    transparent
+  );
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: #49b1f5;
+}
+body {
+  background: url("https://rmt.ladydaily.com/fetch/ZYGG/storage/20201208181428017090.jpg") fixed no-repeat;
+  background-size: 100%;
+}
+#page-header.no-top-img #nav {
+  background: transparent!important;
+}
+#toggle-sidebar {
+  bottom: 80px;
+}
+/*div#aside_content {
+  display: none;
+}
+*/
+
+/* #page-header {
+  margin-bottom: .5rem;
+  height: 60px!important;
+  background: 0;
+} */
